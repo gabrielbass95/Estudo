@@ -26,7 +26,7 @@ export default function Routes() {
           name="inicio"
           component={Main}
         />
-        <AppStack.Screen name="usuario" component={User} />
+        <AppStack.Screen name="usuarios" component={User} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
